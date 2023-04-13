@@ -26,3 +26,5 @@ def solution(x_success: int,
         return norm.cdf(np.abs(z_stat)) > alpha
       
     return norm.cdf(np.abs(z_stat)) <= alpha
+    
+    # Ваш ответ, True или False
